@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testCase.RegisterTest">
+        <methods>
+          <include name="Login"/>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- testCase.RegisterTest -->
+      <class name="testCase.AddProduct">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="AdminLogin"/>
+        </methods>
+      </class> <!-- testCase.AddProduct -->
+      <class name="testCase.CheckoutTest">
+        <methods>
+          <include name="launchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="Checkout"/>
+        </methods>
+      </class> <!-- testCase.CheckoutTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
