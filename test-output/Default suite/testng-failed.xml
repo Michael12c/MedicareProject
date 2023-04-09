@@ -8,23 +8,8 @@
           <include name="launchBrowser"/>
           <include name="invalidLogin"/>
           <include name="closeBrowser"/>
-          <include name="FailedloginTest"/>
         </methods>
       </class> <!-- testCase.LoginTest -->
-      <class name="testCase.CheckoutTest">
-        <methods>
-          <include name="launchBrowser"/>
-          <include name="closeBrowser"/>
-          <include name="Checkout"/>
-        </methods>
-      </class> <!-- testCase.CheckoutTest -->
-      <class name="testCase.AddProduct">
-        <methods>
-          <include name="launchBrowser"/>
-          <include name="closeBrowser"/>
-          <include name="AdminLogin"/>
-        </methods>
-      </class> <!-- testCase.AddProduct -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

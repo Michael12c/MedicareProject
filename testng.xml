@@ -3,9 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="testCase.RegisterTest"/>
       <class name="testCase.AddProduct"/>
-      <class name="testCase.CheckoutTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

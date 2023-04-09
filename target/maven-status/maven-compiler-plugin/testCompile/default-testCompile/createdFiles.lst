@@ -1,0 +1,5 @@
+base\BasePage.class
+testCase\AddProduct.class
+testCase\CheckoutTest.class
+testCase\LoginTest.class
+testCase\RegisterTest.class
