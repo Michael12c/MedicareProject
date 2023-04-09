@@ -123,16 +123,14 @@ public class AddProduct extends BasePage {
 
 	}
 
-		public boolean isTableContainsText(WebElement table, String text){
-			if (table.getText().contains(text)){
+	public boolean isTableContainsText(WebElement table, String text){
+		if (table.getText().contains(text)){
 			System.out.println("New Product Added: " + text);
 			return true;
-			}
-
-			return false;
 		}
 
-
+		return false;
+	}
 }
 
 
